@@ -1,1 +1,1 @@
-# personal-website
+# Hello! I'm Aldo Sanchez and this personal website should help you to get to know me better!
