@@ -1,0 +1,27 @@
+#navbar {overflow: hidden;
+    background-color: beige;
+}
+#navbar a {
+    float:left;
+    display: block;
+    color: rgb(87, 87, 66);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#navbar a:hover {
+    background-color: rgb(66, 144, 148);
+    color: black;
+}
+#navbar a.active {
+    background-color: rgb(65, 195, 218);
+    color: white;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
