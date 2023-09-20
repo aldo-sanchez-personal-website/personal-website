@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-    display: inline-block;
-}
 
 body {
     background-color: rgb(177, 168, 201);
@@ -39,4 +35,20 @@ header::after {
 
 .links {
     float: right;
+}
+
+.links a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: .25em;
+}
+.links a:first-of-type {
+    margin-left: 0;
+}
+.links a.active {
+    border-bottom: 1px solid #555;
+}
+h2 {
+    border: 2px solid black;
+    text-align: center;
 }
